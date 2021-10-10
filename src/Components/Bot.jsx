@@ -61,7 +61,6 @@ const Bot = () => {
             document.querySelector(".chat").append(div);
             let newDiv = document.createElement("div");
             newDiv.className="right";
-            // newDiv.innerHTML=""+hints[(Number)(ros[0])];
             newDiv.innerHTML="Answer: "+options[(Number)(ros[0])][answer[(Number)(ros[0])]];
             document.querySelector(".chat").append(newDiv);
         }
