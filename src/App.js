@@ -11,10 +11,6 @@ function App() {
         <Route path="/quiz" component={Bot} exact></Route>
       </Switch>
     </Router>
-    // <div className="App">
-    //   <login></login>
-    //   <bot></bot>
-    // </div>
   );
 }
 
